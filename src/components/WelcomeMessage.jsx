@@ -1,6 +1,6 @@
 import React from 'react'
 
-function WelcomeMessage({ onGetPostsClick }) {
+function WelcomeMessage() {
     return (
         <div>
             <center className='welcome_message'>
@@ -8,12 +8,6 @@ function WelcomeMessage({ onGetPostsClick }) {
                     Hello ! Currently there are no post here
                 </h1 >
                 <h4></h4>
-                <button
-                    onClick={onGetPostsClick}
-                    type="button"
-                    className="btn btn-secondary btn_css">
-                    Fetch Posts</button>
-
             </center>
         </div>
     )
