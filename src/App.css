@@ -1,0 +1,74 @@
+.app-container {
+  display: flex;
+}
+
+.header-footer {
+  width: 100%;
+  background-image: linear-gradient(295deg, black, transparent);
+}
+
+.sidebar {
+  min-height: 729px;
+}
+
+.post-card {
+  margin: 20px 50px;
+}
+.hashtag {
+  margin: 0px 5px;
+}
+
+.delete {
+  border: 2px solid #a99c9c;
+  border-radius: 0.5rem;
+  background-color: #393030;
+  color: white;
+  margin-bottom: 9px;
+  padding: 0.2rem 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 9px;
+}
+
+.delete:hover {
+  background-color: #ff6666;
+  border-color: #b30000;
+}
+
+.delete:active {
+  background-color: #ff4d4d;
+  border-color: #990000;
+  transform: translateY(1px);
+}
+
+.footer {
+  background-color: #b9b3b3df;
+  border-radius: 15px;
+bottom: 0;}
+
+.create-post {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  width: 84.5%;
+}
+
+.welcome_message {
+  margin: 100px 0px;
+}
+
+.btn_css {
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: rgb(151, 145, 145);
+  margin-top: 30px;
+}
